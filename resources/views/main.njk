@@ -1,0 +1,27 @@
+{% extends "layout" %}
+
+{% block content %}
+
+<h1>{{ name }}</h1>
+
+<div class="row">
+
+  {% for day in days %}
+  <div class="col-lg-4 col-md-6 col-sm-12">
+    <div class="panel panel-primary">
+      <div class="panel-heading">{{ day.day }}</div>
+      <ul class="list-group">
+        {% for timetable in day.timetables %}
+        <li class="list-group-item">
+          <a href="/timetable/{{ timetable.id }}">
+            {{ timetable.hour }}:00  |  {{ timetable.className }}
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  {% endfor %}
+
+</div>
+{% endblock %}

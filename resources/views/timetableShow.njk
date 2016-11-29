@@ -1,0 +1,23 @@
+{% extends "layout" %}
+
+{% block content %}
+
+<h3> {{day.day }}  {{timetable.hour }}:00 </h3>
+<h2>{{timetable.gymClass.className }}</h2>
+<div> <h3>Terem: </h3> {{  timetable.gymClass.room }} </div>
+<p> <h3>Edző: </h3> {{timetable.trainer.name }} </p>
+<h3>Leírás: </h3>
+<div>
+{{ timetable.gymClass.info }}
+</div>
+
+{% if (timetable.user_id == currentUser.id) %}
+<a href="/timetable/{{ timetable.id }}/edit" class="btn btn-default">
+    Szerkeszt
+</a>
+<a href="/timetable/{{ timetable.id }}/delete" class="btn btn-danger">
+    Töröl
+</a>
+{% endif %}
+
+{% endblock %}
