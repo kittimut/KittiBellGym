@@ -1,6 +1,6 @@
 {
     "sqlite": {
-        "database": "database\\timetable.sqlite"
+        "database": "database\\timetables.sqlite"
     },
     "server": {
         "port": 4444

@@ -30,7 +30,7 @@ module.exports = {
   sqlite: {
     client: 'sqlite3',
     connection: {
-      filename: Helpers.databasePath('recipes.sqlite')
+      filename: Helpers.databasePath('timetables.sqlite')
     },
     useNullAsDefault: true,
 	debug: true
