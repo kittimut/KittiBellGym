@@ -53,21 +53,22 @@ Szerepkörök
 
 Használati esetek
 ----------
-![hasznalatiesetek](https://github.com/kittimut/KittiBellGym/blob/master/photos/hasznalatiesetdiag.JPG)
+![hasznalatiesetek](https://github.com/kittimut/KittiBellGym/blob/master/photos/hasznalatiesetdiag.jpg)
+
 
 ----------
 
 
 Adatmodell
 ----------
-![adatmodell](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatmod.JPG)
+![adatmodell](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatmod.jpg)
 
 
 ----------
 
 Adatbázis
 ----------
-![adatbazis](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatbazis.JPG)
+![adatbazis](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatbazis.jpg)
 
 ----------
 
@@ -115,10 +116,10 @@ Végpontok
 
 Oldalvázlatok
 ----------
-![home](https://github.com/kittimut/KittiBellGym/blob/master/photos/Index.JPG)
-![login](https://github.com/kittimut/KittiBellGym/blob/master/photos/Login.JPG)
-![reg](https://github.com/kittimut/KittiBellGym/blob/master/photos/Registration.JPG)
-![editTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/editTimetable.JPG)
-![createTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/createTimetable.JPG)
-![ClassPageVisitor](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageVisitor.JPG)
-![ClassPageTrainer](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageTrainer.JPG)
+![home](https://github.com/kittimut/KittiBellGym/blob/master/photos/Index.jpg)
+![login](https://github.com/kittimut/KittiBellGym/blob/master/photos/Login.jpg)
+![reg](https://github.com/kittimut/KittiBellGym/blob/master/photos/Registration.jpg)
+![editTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/editTimetable.jpg)
+![createTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/createTimetable.jpg)
+![ClassPageVisitor](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageVisitor.jpg)
+![ClassPageTrainer](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageTrainer.jpg)
