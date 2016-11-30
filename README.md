@@ -68,7 +68,7 @@ Adatmodell
 
 Adatbázis
 ----------
-![adatbazis](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatbazis.jpg)
+![adatbazis](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatb.jpg)
 
 ----------
 
