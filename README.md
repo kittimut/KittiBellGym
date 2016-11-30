@@ -53,7 +53,7 @@ Szerepkörök
 
 Használati esetek
 ----------
-![hasznalatiesetek](https://github.com/kittimut/KittiBellGym/blob/master/photos/hasznalatiesetdiag.jpg)
+![hasznalatiesetek](https://github.com/kittimut/KittiBellGym/blob/master/photos/hasznalatiesetdiagram.jpg)
 
 
 ----------
