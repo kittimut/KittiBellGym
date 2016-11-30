@@ -53,27 +53,21 @@ Szerepkörök
 
 Használati esetek
 ----------
-
-
-----------
-
-
-Folyamatok meghatározása
-----------
-
+![hasznalatiesetek](https://github.com/kittimut/KittiBellGym/blob/master/photos/hasznalatiesetdiag.JPG)
 
 ----------
 
 
 Adatmodell
 ----------
+![adatmodell](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatmod.JPG)
 
 
 ----------
 
 Adatbázis
 ----------
-
+![adatbazis](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatbazis.JPG)
 
 ----------
 
