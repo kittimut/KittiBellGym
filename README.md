@@ -121,3 +121,10 @@ Végpontok
 
 Oldalvázlatok
 ----------
+![home](https://github.com/kittimut/KittiBellGym/blob/master/photos/Index.JPG)
+![login](https://github.com/kittimut/KittiBellGym/blob/master/photos/Login.JPG)
+![reg](https://github.com/kittimut/KittiBellGym/blob/master/photos/Registration.JPG)
+![editTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/editTimetable.JPG)
+![createTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/createTimetable.JPG)
+![ClassPageVisitor](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageVisitor.JPG)
+![ClassPageTrainer](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageTrainer.JPG)
