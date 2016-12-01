@@ -53,13 +53,7 @@ Szerepkörök
 
 Használati esetek
 ----------
-
-
-----------
-
-
-Folyamatok meghatározása
-----------
+![hasznalatiesetek](https://github.com/kittimut/KittiBellGym/blob/master/photos/hasznalatiesetdiagram.jpg)
 
 
 ----------
@@ -67,13 +61,14 @@ Folyamatok meghatározása
 
 Adatmodell
 ----------
+![adatmodell](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatmod.jpg)
 
 
 ----------
 
 Adatbázis
 ----------
-
+![adatbazis](https://github.com/kittimut/KittiBellGym/blob/master/photos/adatb.jpg)
 
 ----------
 
@@ -121,3 +116,10 @@ Végpontok
 
 Oldalvázlatok
 ----------
+![home](https://github.com/kittimut/KittiBellGym/blob/master/photos/Index.jpg)
+![login](https://github.com/kittimut/KittiBellGym/blob/master/photos/Login.jpg)
+![reg](https://github.com/kittimut/KittiBellGym/blob/master/photos/Registration.jpg)
+![editTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/editTimetable.jpg)
+![createTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/createTimetable.jpg)
+![ClassPageVisitor](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageVisitor.jpg)
+![ClassPageTrainer](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageTrainer.jpg)
