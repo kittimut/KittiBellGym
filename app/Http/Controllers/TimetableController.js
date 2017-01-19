@@ -144,7 +144,25 @@ class TimetableController {
     yield timetable.delete()
     response.redirect('/')
   }
+
+  * ajaxDelete(request, response) {
+    const id = request.param('id');
+    const timetable = yield Timetable.find(id);
+    if(timetable){
+      if(request.currentUser.id !== timetable.user_id){
+        response.ok({
+           succes:false 
+        })
+        return;
+      }
+      yield timetable.delete()
+      
+    response.ok({
+      succes: true
+    })
+  }
   
+}
 }
 
 module.exports = TimetableController

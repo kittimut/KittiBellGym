@@ -23,33 +23,35 @@ class UserController {
     yield response.sendView('login')
   }
 
-  * doLogin (request, response) {
+  * doLogin(request, response) {
     const email = request.input('email')
     const password = request.input('password')
 
     try {
-      const login = yield request.auth.attempt(email, password) 
+      const login = yield request.auth.attempt(email, password)
 
       if (login) {
         response.redirect('/')
         return
       }
-    } 
+    }
     catch (err) {
       yield request
         .withAll()
-        .andWith({errors: [
-          {
-            message: 'Invalid credentails'
-          }
-        ]})
+        .andWith({
+          errors: [
+            {
+              message: 'Invalid credentails'
+            }
+          ]
+        })
         .flash()
 
       response.redirect('/login')
     }
   }
 
-  * doRegister (request, response) {
+  * doRegister(request, response) {
     const registerData = request.except('_csrf');
 
     const rules = {
@@ -64,7 +66,7 @@ class UserController {
     if (validation.fails()) {
       yield request
         .withAll()
-        .andWith({errors: validation.messages()})
+        .andWith({ errors: validation.messages() })
         .flash()
       response.redirect('back')
       return
@@ -75,18 +77,36 @@ class UserController {
     user.name = registerData.name;
     user.username = registerData.username;
     user.email = registerData.email;
-    user.password = yield Hash.make(registerData.password) 
+    user.password = yield Hash.make(registerData.password)
     yield user.save()
-    
+
     yield request.auth.login(user)
 
     response.redirect('/')
   }
 
-  * doLogout (request, response) {
+  * doLogout(request, response) {
     yield request.auth.logout()
     response.redirect('/')
   }
+
+  * ajaxLogin(request, response) {
+    const email = request.input('email')
+    const password = request.input('password')
+
+    try {
+      const login = yield request.auth.attempt(email, password)
+      if (login) {
+        response.send({ success: true })
+        return
+      }
+    }
+    catch (err) {
+      response.send({ success: false })
+    }
+  }
+
+
 }
 
 module.exports = UserController

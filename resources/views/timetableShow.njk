@@ -1,5 +1,9 @@
 {% extends "layout" %}
 
+{% block scripts %}
+<script src="/scripts/delete.js"></script>
+{% endblock %}
+
 {% block content %}
 
 <h3> {{day.day }}  {{timetable.hour }}:00 </h3>
@@ -15,9 +19,22 @@
 <a href="/timetable/{{ timetable.id }}/edit" class="btn btn-default">
     Szerkeszt
 </a>
-<a href="/timetable/{{ timetable.id }}/delete" class="btn btn-danger">
+<a id="btnDelete" href="/timetable/{{ timetable.id }}/delete" class="btn btn-danger">
     Töröl
 </a>
 {% endif %}
-
+<span class="help-block"></span>
+<div class="modal fade confirm-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+        <div class="modal-body">
+            Biztosan törölni szeretnéd?
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-success modal-ok" data-dismiss="modal">Töröl</button>
+            <button type="button" class="btn btn-danger modal-cancel" data-dismiss="modal">Mégse</button>
+        </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
