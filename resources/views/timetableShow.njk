@@ -14,7 +14,7 @@
 <div>
 {{ timetable.gymClass.info }}
 </div>
-
+{{csrfField}}
 {% if (timetable.user_id == currentUser.id) %}
 <a href="/timetable/{{ timetable.id }}/edit" class="btn btn-default">
     Szerkeszt
