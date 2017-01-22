@@ -124,8 +124,22 @@ Oldalvázlatok
 ![ClassPageVisitor](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageVisitor.jpg)
 ![ClassPageTrainer](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageTrainer.jpg)
 
+A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
+----------
+**Új funkciók:**
+- PopUp Login: bejelentkezéskor felugró ablakban tudunk bejelentkezni az oldalra, új oldalra lépés helyett. app/public/popup_login.js
+- Regiszráció validálása: bootstrap validator validator.min.js script használatával
+- Saját edzés törlésének megerősítése: törléskor felugró ablakban kell megerősítenünk, hogy biztosan törölni akarjuk az edzést. app/public/delete.js
+
 Tesztelés - Selenium
 ----------
-Tesztelés: Selenium használatával Firefox-szal
-tesztesetek a teszt mappában
-![selenium](https://github.com/kittimut/KittiBellGym/blob/master/photos/selinium.jpg)
+**Tesztelés:** Selenium IDE használatával, ami letölthető kiegészítőként a Firefox böngészőhöz.
+letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide
+![selenium](https://github.com/kittimut/KittiBellGym/blob/master/photos/selinium.JPG)
+A következő funkciók tesztesetei a teszt mappában találhatóak:
+- regisztráció
+- bejelentkezés
+- új edzés hozzáadása
+- saját edzés szerkesztése
+pl:
+![registrationTest](https://github.com/kittimut/KittiBellGym/blob/master/photos/registrationTest.JPG)
