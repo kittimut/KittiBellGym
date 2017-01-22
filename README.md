@@ -123,3 +123,9 @@ Oldalvázlatok
 ![createTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/createTimetable.jpg)
 ![ClassPageVisitor](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageVisitor.jpg)
 ![ClassPageTrainer](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageTrainer.jpg)
+
+Tesztelés - Selenium
+----------
+Tesztelés: Selenium használatával Firefox-szal
+tesztesetek a teszt mappában
+![selenium](https://github.com/kittimut/KittiBellGym/blob/master/photos/selinium.jpg)
