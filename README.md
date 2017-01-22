@@ -139,11 +139,15 @@ Tesztelés - Selenium
 ----------
 **Tesztelés:** Selenium IDE használatával, ami letölthető kiegészítőként a Firefox böngészőhöz.
 letöltés: https://addons.mozilla.org/hu/firefox/addon/selenium-ide
+
 ![selenium](https://github.com/kittimut/KittiBellGym/blob/master/photos/selinium.JPG)
+
 A következő funkciók tesztesetei a teszt mappában találhatóak:
 - regisztráció
 - bejelentkezés
 - új edzés hozzáadása
 - saját edzés szerkesztése
+
 pl:
+
 ![registrationTest](https://github.com/kittimut/KittiBellGym/blob/master/photos/registrationTest.JPG)
