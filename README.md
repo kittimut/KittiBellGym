@@ -119,10 +119,12 @@ Oldalvázlatok
 ![home](https://github.com/kittimut/KittiBellGym/blob/master/photos/Index.jpg)
 ![login](https://github.com/kittimut/KittiBellGym/blob/master/photos/Login.jpg)
 ![reg](https://github.com/kittimut/KittiBellGym/blob/master/photos/Registration.jpg)
-![editTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/editTimetable.jpg)
-![createTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/createTimetable.jpg)
+![editTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/EditTimetable.jpg)
+![createTimetable](https://github.com/kittimut/KittiBellGym/blob/master/photos/CreateTimetable.jpg)
 ![ClassPageVisitor](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageVisitor.jpg)
 ![ClassPageTrainer](https://github.com/kittimut/KittiBellGym/blob/master/photos/ClassPageTrainer.jpg)
+
+--------- 
 
 A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript segítségével
 ----------
@@ -130,6 +132,8 @@ A szerveroldali alkalmazás progresszív fejlesztése kliensoldali JavaScript se
 - PopUp Login: bejelentkezéskor felugró ablakban tudunk bejelentkezni az oldalra, új oldalra lépés helyett. app/public/popup_login.js
 - Regiszráció validálása: bootstrap validator validator.min.js script használatával
 - Saját edzés törlésének megerősítése: törléskor felugró ablakban kell megerősítenünk, hogy biztosan törölni akarjuk az edzést. app/public/delete.js
+
+---------
 
 Tesztelés - Selenium
 ----------
